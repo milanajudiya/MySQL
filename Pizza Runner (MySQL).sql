@@ -6,25 +6,6 @@ SELECT * FROM pizza.pizza_toppings;
 SELECT * FROM pizza.runners;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- change empty and null string to null in customer_orders
 update customer_orders
 set exclusions = null
@@ -80,6 +61,8 @@ select * from customer_orders;
 select * from runner_orders
 
 
+
+  
 Q1. How many pizzas were ordered?
 select count(order_id) as Total_order
 from customer_orders
